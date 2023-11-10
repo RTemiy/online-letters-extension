@@ -1,0 +1,41 @@
+body {
+  user-select: none;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  border: 4px black solid;
+  padding: 5px;
+  margin: 0;
+}
+
+h1 {
+  padding: 0 0 5px 0;
+  margin: 0 0 10px 0;
+  border-bottom: 1px solid black;
+}
+
+button {
+  background-color: rgba(128, 128, 128, 0.18);
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+#load-button{
+  display: none;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+p {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
